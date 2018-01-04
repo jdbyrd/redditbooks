@@ -1,6 +1,5 @@
 const amazon = require('amazon-product-api');
 const db = require('../database');
-const config = require('../config.js');
 
 
 let amazonRequest = (err, book) => {

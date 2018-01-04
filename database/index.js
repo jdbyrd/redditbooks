@@ -1,5 +1,4 @@
 var mongoose = require('mongoose');
-const config = require('../config.js');
 let mongoPass = process.env.mongoPwd || config.mongoPwd;
 mongoose.connect(`mongodb://james:${mongoPass}@ds139067.mlab.com:39067/redditbooks`);
 
