@@ -1,0 +1,33 @@
+{
+  "name": "redditbooks",
+  "version": "1.0.0",
+  "description": "A website that posts what /r/books is reading this week",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server-dev": "nodemon server/index.js",
+    "react-dev": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdbyrd/redditbooks.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "James Byrd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdbyrd/redditbooks/issues"
+  },
+  "homepage": "https://github.com/jdbyrd/redditbooks#readme",
+  "dependencies": {
+    "amazon-product-api": "^0.4.4",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.0-rc2",
+    "node-cron": "^1.2.1",
+    "react": "^16.2.0",
+    "request": "^2.83.0"
+  }
+}
