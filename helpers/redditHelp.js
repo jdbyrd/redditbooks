@@ -58,9 +58,9 @@ let getRedditComments = (article) => {
 }
 
 let getLink = (body) => {
-  let index = body.indexOf(`">What Books Are You Reading This Week?`);
+  let index = body.indexOf(`">What Books Did You Start or Finish Reading This Week?`);
   let article = body.slice(index-6, index);
-  body = body.slice(index+40);
+  body = body.slice(index+56);
   index = body.indexOf(`</a`);
   let date = body.slice(0, index);
   return [article, date];
