@@ -1,7 +1,6 @@
 const amazon = require('amazon-product-api');
 const db = require('../database');
 
-
 let amazonRequest = (err, book) => {
   if(err){ console.log(err); }
   else {  
