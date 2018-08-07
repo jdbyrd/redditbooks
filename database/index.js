@@ -37,7 +37,7 @@ var selectAll = function(callback) {
 let search = (date, callback) => {
   Book.
   find().
-  where('date').equals(date).
+  // where('date').equals(date).
   exec(callback);
 };
 
